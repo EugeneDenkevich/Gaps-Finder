@@ -8,10 +8,12 @@ from typing import Dict, List, Union
 from colorama import Fore
 import whisper
 
-
+# Используй примеры, которые лежат в папке assets/
 AUDIO_FILE_PATH = "assets/audio.wav"
 ORIGIN_TEXT_PATH = "assets/text.txt"
-RECOGNIZED_TEXT_PATH = "assets/text_recognized.json" # Нужно, для хранения распознанной речи.
+
+# Нужно, для хранения распознанной речи.
+RECOGNIZED_TEXT_PATH = "text_recognized.json"
 
 
 def recognize_speach() -> str:
